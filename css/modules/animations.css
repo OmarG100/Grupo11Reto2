@@ -1,0 +1,13 @@
+.avion__decorator{
+    position: relative;
+    animation: Avion-m 10s linear infinite;
+}
+
+@keyframes Avion-m {
+    0%{left: 0; top: 0px;}
+    100%{left: 1400px; top: 0px;}
+}
+
+    /*animation-name: Avion-m;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;

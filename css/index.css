@@ -1,3 +1,10 @@
-:root {
-    background-color: red;
-}
+@import url(./modules/variables.css);
+@import url(./modules/utils.css);
+@import url(./modules/animations.css);
+@import url(./modules/container.css);
+@import url(./modules/header.css);
+@import url(./modules/hero.css);
+@import url(./modules/nav.css);
+@import url(./modules/list.css);
+@import url(./modules/cards.css);
+@import url(./modules/buttons.css);
