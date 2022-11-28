@@ -5,5 +5,12 @@ footer {
 
 .box__ft {
     padding: 1rem;
-    background-color: #FFEECE;
+    background-color: #FFEDC5;
+}
+
+.item__ft {
+    display: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
 }
