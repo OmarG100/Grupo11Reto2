@@ -1,6 +1,7 @@
 .section {
     padding-top: var(--padding-section);
     padding-bottom: var(--padding-section);
+    font-size: 1.5rem;
 }
 
 .section__title {
