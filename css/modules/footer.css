@@ -1,0 +1,9 @@
+footer {
+    background-color: var(--primary-theme-color);
+    margin: 0;
+}
+
+.box__ft {
+    padding: 1rem;
+    background-color: #FFEECE;
+}
