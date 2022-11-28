@@ -14,3 +14,7 @@ footer {
     height: 48px;
     border-radius: 50%;
 }
+
+.link__ft {
+    list-style: none;
+}
