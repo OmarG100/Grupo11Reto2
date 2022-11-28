@@ -57,6 +57,14 @@
     color: #000000;
   
   }
+
+  
+  .grid_item_text
+  {
+    font-family: var(--primary-font-family);
+    padding: 10px;
+    height: 100%;
+  }
   
   .grid_item:hover {
     /* filter: opacity(1.1); */
@@ -156,4 +164,8 @@
     .grid-elements--gallery {
       grid-template-columns: repeat(2, 1fr);
     }
+
+    .grid-elements--gallery--ac {
+        grid-template-columns: repeat(3, 1fr);
+      }
   }
