@@ -1,4 +1,4 @@
-grid_container {
+.grid_container {
     display: grid; 
     background-color: #d1cdcdb0;
     border-radius: 10px;
