@@ -18,3 +18,7 @@ footer {
 .link__ft {
     list-style: none;
 }
+
+.deco {
+    text-decoration: none;
+}
