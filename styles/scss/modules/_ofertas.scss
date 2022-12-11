@@ -1,0 +1,45 @@
+.oferta{
+    display: block;
+
+    &_precio{
+        text-align: center;
+
+        }
+
+        &__subtitle{
+            letter-spacing: 0.1rem;
+        }
+
+        &__Offers{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 2rem;
+        }
+
+        &__offer{
+            gap: 1rem;
+            background-color: var(--reverse-primary-shadow-color);
+            width: 14rem;
+            border-radius: 1rem;
+            padding: 2rem 1rem;
+            color: var(--primary-text-color);
+            flex-direction: column;
+
+            &--best{
+                width: 16rem;
+                background-color: var(--primary-highlight-color);
+                color: var( --reverse-primary-shadow-color);
+            }
+        }
+
+    &-container{
+        padding: 0 2rem;
+        @media (min-width:854px) {
+            max-width: 1024;
+            margin: auto;
+            padding: 0;
+        }
+    }
+}

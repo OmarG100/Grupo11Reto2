@@ -206,4 +206,45 @@
   gap: calc(var(--padding-section) * 1.5);
 }
 
+.oferta {
+  display: block;
+}
+.oferta_precio {
+  text-align: center;
+}
+.oferta__subtitle {
+  letter-spacing: 0.1rem;
+}
+.oferta__Offers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.oferta__offer {
+  gap: 1rem;
+  background-color: var(--reverse-primary-shadow-color);
+  width: 14rem;
+  border-radius: 1rem;
+  padding: 2rem 1rem;
+  color: var(--primary-text-color);
+  flex-direction: column;
+}
+.oferta__offer--best {
+  width: 16rem;
+  background-color: var(--primary-highlight-color);
+  color: var(--reverse-primary-shadow-color);
+}
+.oferta-container {
+  padding: 0 2rem;
+}
+@media (min-width: 854px) {
+  .oferta-container {
+    max-width: 1024;
+    margin: auto;
+    padding: 0;
+  }
+}
+
 /*# sourceMappingURL=fe.css.map */
