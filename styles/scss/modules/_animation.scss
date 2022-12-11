@@ -1,0 +1,20 @@
+.avion__decorator{
+    position: relative;
+    animation: Avion-m 15s linear infinite;
+    z-index: 0;
+}
+
+@keyframes Avion-m {
+    0%{left: 0; top: 0px;}
+    25%{left: 500px; top: 0px;}
+    50%{transform: rotatey(180deg); animation-delay: 5s;}
+    75%{left: 0; top: 0;}
+}
+
+@media (max-width: 768px) {
+    .avion__decorator {
+        position: none;
+        animation: none;
+        z-index: none;
+    }
+}
