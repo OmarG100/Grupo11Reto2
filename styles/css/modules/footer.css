@@ -1,25 +1,34 @@
 footer {
     background-color: var(--primary-theme-color);
+    color: var(--secondary-text-color);
     margin: 0;
+    padding: 1px;
 }
 
-.box__ft {
-    padding: 1rem;
-    background-color: #FFEDC5;
+.footer__container {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
 }
 
-.item__ft {
-    display: center;
+.footer__list {
+    list-style: none;
+    text-decoration: none;
+}
+
+.footer__title {
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+.footer__container--title {
+    padding: 3rem;
+}
+
+.footer__logo {
+    display: flex;
     width: 48px;
     height: 48px;
     border-radius: 50%;
-}
-
-.link__ft {
-    list-style: none;
-}
-
-.deco {
-    text-decoration: none;
-    color: black;
+    margin: 1rem;
 }
