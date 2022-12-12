@@ -1,7 +1,7 @@
 .oferta{
     display: block;
 
-    &_precio{
+    &__precio {
         text-align: center;
         font-size: 2rem;
         margin: 0;
@@ -16,7 +16,13 @@
         text-align: center;
     }
 
-        &__subtitle{
+    &__topic
+    {
+        margin: 0; 
+    }
+
+
+    &__subtitle {
         letter-spacing: 0.1rem;
     }
 
@@ -67,9 +73,8 @@
         pointer-events: auto;
 
         &--best{
-                width: 16rem;
-                background-color: var(--primary-highlight-color);
-                color: var( --reverse-primary-shadow-color);
+            background-color: black;
+            color: var(--primary-text-color);
         }
     }
 
