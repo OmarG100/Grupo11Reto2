@@ -543,28 +543,23 @@
 }
 .oferta__offer--best {
   width: 16rem;
-  background-color: var(--primary-theme-color-oferta);
-  color: var(--reverse-primary-text-color);
+  background-color: var(--primary-highlight-color);
+  color: var(--reverse-primary-shadow-color);
 }
 .oferta__name {
-  font-weight: 900;
+  font-weight: 300;
   margin: 0;
-  font-size: 2.5rem;
 }
 .oferta__button {
   position: relative;
   display: inline-block;
-  background-color: var(--primary-theme-color-oferta);
+  background-color: var(--reverse-primary-text-color);
   padding: 0.5rem 1rem;
   text-decoration: none;
-  color: var(--reverse-primary-text-color);
+  color: var(--primary-text-color);
   border-radius: 0.5rem;
   transition: all 0.5s;
   pointer-events: auto;
-}
-.oferta__button--best {
-  background-color: black;
-  color: var(--primary-text-color);
 }
 .oferta-container {
   padding: 0 2rem;
