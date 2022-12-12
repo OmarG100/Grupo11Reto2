@@ -13,9 +13,10 @@
     --secondary-highlight-color: gold;
     --primary-button-color: #61dafb;
     --secondary-button-color: gold;
-    --primary-font-family: 'Inconsolata', monospace;
+    --primary-font-family:  'Inconsolata', monospace;
     --max-width-container: 512px;
     --padding-section: 1.5rem;
     --padding-container: 1rem;
     --primary-border-radius: 0.5rem;
+    --primary-theme-color-oferta: #1ae2e2;
 }
