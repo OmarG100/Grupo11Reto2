@@ -206,6 +206,16 @@
   gap: calc(var(--padding-section) * 1.5);
 }
 
+@media (min-width: 768px) {
+  .md\:d-block {
+    display: block;
+  }
+
+  .md\:f-direction-row {
+    flex-direction: row;
+  }
+}
+
 .avion__decorator {
   position: relative;
   animation: Avion-m 15s linear infinite;
