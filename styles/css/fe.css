@@ -413,6 +413,9 @@
   .g-elements--gallery {
     grid-template-columns: repeat(3, 1fr);
   }
+  .responsive__carrousell {
+    margin: 0;
+  }
 }
 .list {
   list-style: none;
