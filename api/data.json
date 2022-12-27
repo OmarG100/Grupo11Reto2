@@ -2,9 +2,9 @@
     {
         "id": 1,
         "name": "Cuzco",
-        "description": "ají de gallina es un plato típico de la gastronomía peruana, concretamente de la costa, que consiste en un ají o crema espesa con pechuga de gallina deshilachada. Esta crema es servida con papas cocidas, y en ocasiones con arroz blanco. Es común reemplazar la gallina por pollo.",
-        "urlImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Ají_de_gallina.jpg/800px-Ají_de_gallina.jpg",
-        "urlRecipe": "https://www.recetasnestle.com.pe/recetas/aji-de-gallina-2",
+        "description": "Durante este recorrido podrá ver los aspectos más destacados de la ciudad, como los dos templos más importantes de los incas, la zona histórica y el valle sagrado de los incas.",
+        "urlImage": "https://www.culturalimmersion.org/Recursos/Imagenes/Tour/TourBanner/TourBanner_483.jpg",
+        "urlRecipe": "https://www.culturalimmersion.org/TourDescription/105/half-day-cusco-city-and-the-incan-empire",
         "lugaresTuristicos": [
             {
                 "id": 1,
