@@ -55,27 +55,61 @@
         </nav>
     </header>
     <main>
-        <div>
-            <img src="https://www.svgrepo.com/show/86537/airplane.svg" alt="React" width="64" height="64"
-                class="avion__decorator">
+    <section style="margin-bottom: 1rem;">
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
         </div>
-        <div class="container f-elements f-elements--center f-elements--responsive">
-
-            <div class="flex-1" id="hero">
-                <section class="section">
-                    <h1>Profesionales en Turismo</h1>
-                    <p>
-                        Les damos la bienvenida. Somos la agencia de viajes Grupo 11, nuestra pasión y amor por el
-                        turismo
-                        nos convierten en una empresa sobresaliente que brinda los mejores programas de viajes tanto
-                        en el Perú como en el mundo. Lo invitamos a conocer nuestro maravilloso y variado país, rico en
-                        cultura,
-                        tradiciones, gastronomía y gente. También podrá conocer el resto del mundo: ciudades románticas
-                        como
-                        París o lujosas como Dubai, países excéntricos como la China o místicos como la India.
-                    </p>
-
-                </section>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="5000">
+            <img src="https://arc-anglerfish-arc2-prod-gruporepublica.s3.amazonaws.com/public/BFC4C743RJB23KDCFYVQBNNFV4.jpeg" id="carrusel__img" class="d-flex" alt="Imagen 1"
+              width="256" height="144">
+            <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50">
+              <h5>Somos la Agencia de Viajes "Grupo 11"</h5>
+              <p>Nuestra pasión por el turismo nos convierte en una empresa sobresaliente que brinda los mejores programas de viajes tanto en el Perú como en el mundo.</p>
+              <a href="#aboutus">
+              <button class="btn btn-primary">¡Vamos!</button>
+              </a>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="https://www.ecommercenews.pe/wp-content/uploads/2022/05/Peru-registra-un-incremento-en-el-turismo-durante-el-primer-trimestre-de-2022...png" id="carrusel__img" class="d-flex" alt="Imagen 2" width="256" height="144">
+            <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50">
+              <h5>Descubra el país.</h5>
+              <p>Lo invitamos a descubrir nuestra maravillosa y variada nación, rica en cultura, tradiciones, gastronomía y gente.</p>
+              <a href="#aboutus">
+              <button class="btn btn-primary">¡Vamos!</button>
+              </a>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="https://padondenosvamos.com/wp-content/uploads/2018/01/Agra.jpg" id="carrusel__img" class="d-flex" alt="Imagen 3" width="256" height="144">
+            <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50">
+              <h5>Descubra un Mundo Inmenso</h5>
+              <p>También podrá conocer el resto del mundo: Ciudades románticas como París o lujosas como Dubái; países excéntricos como la China o místicos como la India.</p>
+              <a href="#aboutus">
+              <button class="btn btn-primary">¡Vamos!</button>
+              </a>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
             </div>
         </div>
         <section class="section" id="aboutus">
@@ -208,13 +242,13 @@
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active responsive__carrousell">
-                    <img src="https://blogs.incarail.com/hubfs/cms_cuando-ir-a-machu-picchujpg__z11uh1EdRKHUATDjQL1GUhE5p1eWZZ4f8eAUFI47.jpeg" class="d-block w-100" alt="Fabiola" style="padding: 10rem; padding-top: 1rem; padding-bottom: 1rem; height: 600px; width: 100%; object-fit: cover;">
+                    <img src="https://blogs.incarail.com/hubfs/cms_cuando-ir-a-machu-picchujpg__z11uh1EdRKHUATDjQL1GUhE5p1eWZZ4f8eAUFI47.jpeg" class="d-block w-100" alt="Fabiola" id="carrusel__img">
                   </div>
                   <div class="carousel-item responsive__carrousell">
-                    <img src="https://www.notiviajeros.com/wp-content/uploads/2021/08/rutas-cortas-viajeros-peruanos.jpg" class="d-block w-100" alt="Genaro" style="padding: 10rem; padding-top: 1rem; padding-bottom: 1rem; height: 600px; width: 100%; object-fit: cover">
+                    <img src="https://www.notiviajeros.com/wp-content/uploads/2021/08/rutas-cortas-viajeros-peruanos.jpg" class="d-block w-100" alt="Genaro" id="carrusel__img">
                   </div>
                   <div class="carousel-item responsive__carrousell">
-                    <img src="https://turismoi.pe/uploads/photo/photo_file/8636/optimized_8415516712_2aa4410dca_o.jpg" class="d-block w-100" alt="JuntosViajando" style="padding: 10rem; padding-top: 1rem; padding-bottom: 1rem; height: 600px; width: 100%;object-fit: cover">
+                    <img src="https://turismoi.pe/uploads/photo/photo_file/8636/optimized_8415516712_2aa4410dca_o.jpg" class="d-block w-100" alt="JuntosViajando" id="carrusel__img">
                   </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
