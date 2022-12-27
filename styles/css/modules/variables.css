@@ -1,6 +1,6 @@
 :root {
     scroll-behavior: smooth;
-    --primary-theme-color: #9bf1f1;
+    --primary-theme-color: #51cebd;
     --secondary-theme-color: #3386ca;
     --primary-text-color: #fff;
     --secondary-text-color: #888;
@@ -14,7 +14,7 @@
     --primary-button-color: #61dafb;
     --secondary-button-color: gold;
     --primary-font-family:  'Inconsolata', monospace;
-    --max-width-container: 512px;
+    --max-width-container: 940px;
     --padding-section: 1.5rem;
     --padding-container: 1rem;
     --primary-border-radius: 0.5rem;
