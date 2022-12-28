@@ -50,7 +50,7 @@ const foods = () => {
 
   const fetchRead = async () => {
     // const response = await fetch('https://elliotgaramendi.github.io/frontend-tecsup-e-g11/semana-8/3-chanchirata/api/data.json');
-    const response = await fetch('../api/data.json');
+    const response = await fetch('./api/data.json');
     const data = await response.json();
     renderFoods(data);
   };
