@@ -1,4 +1,8 @@
 @import url(./modules/variables.css);
+@import url(./modules/pokemons.css);
+@import url(./modules/pokemon.css);
+@import url(./modules/loader.css);
+@import url(./modules/spinner.css);
 
 
 
