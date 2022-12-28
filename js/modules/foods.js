@@ -57,5 +57,4 @@ const foods = () => {
   fetchRead();
 };
 
-
 export default foods;
