@@ -4,7 +4,7 @@ const foods = () => {
 
     data.forEach((element) => {
       console.log(element);
-      const { id, name, description, urlImage, urlRecipe, lugaresTuristicos } = element;
+      const { id, name, description, urlImage, urlRecipe, lugaresTuristicos,precioOferta, precioRegular,Duracion } = element;
       console.log(element);
       foodsFoods.innerHTML += `
           <div class="col-md-4" key=${id}>
@@ -18,15 +18,29 @@ const foods = () => {
                   style="width: 100%; height: 192px; object-fit: cover; border-radius: 0.5rem">
                 <h5 class="card-title mt-2">${name}</h5>
                 <p class="card-text">${description}</p>
-                <p class="card-text">${lugaresTuristicos[0].name}
-                <p class="card-text">${lugaresTuristicos[1].name}
-                <p class="card-text">${lugaresTuristicos[2].name}
-                <p class="card-text">${lugaresTuristicos[3].name}
-          
-               </p>
+                <p class="card-text">${lugaresTuristicos[0].name}</p>
+                <p class="card-text">${lugaresTuristicos[1].name}</p>
+                <p class="card-text">${lugaresTuristicos[2].name}</p>
+                <p class="card-text">${lugaresTuristicos[3].name}</p>
               </div>
+              <footer class="pokemon__footer">
+              <div class="pokemon__footer-stats">
+                <h3 class="pokemon__footer-stats-base">${precioOferta}</h3>
+                <p class="pokemon__footer-stats-name">Oferta</p>
+                
+              </div>
+              <div class="pokemon__footer-stats">
+              <h3 class="pokemon__footer-stats-base">${precioRegular}</h3>
+              <p class="pokemon__footer-stats-name">Regular</p>
+             
+            </div>
+            <div class="pokemon__footer-stats">
+            <h3 class="pokemon__footer-stats-base">${Duracion}</h3>            
+            <p class="pokemon__footer-stats-name">Duración</p>
+          </div>
+            </footer>
               <div class="card-footer text-center">
-                <a href="${urlRecipe}" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Receta</a>
+                <a href="${urlRecipe}" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Reservar</a>
               </div>
             </div>
           </div>
