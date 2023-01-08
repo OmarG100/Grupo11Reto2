@@ -59,9 +59,9 @@
                             <a class="nav-link list__link" href="#ofertas">Ofertas</a>
                         </li>
                     </ul>
-                    <form class="d-flex" role="search">
-                        <input class="form-control me-2 bg-light" type="search" placeholder="Buscar"
-                            aria-label="Search">
+                    <form class="d-flex" role="search" id="searchForm">
+                        <input class="form-control me-2 bg-light" type="search" placeholder="Buscar ciudad"
+                         name="name" id="name"  aria-label="Buscar ciudad" >
                         <button class="btn btn-outline-primary" type="submit">Buscar</button>
                     </form>
                 </div>
@@ -73,8 +73,19 @@
             <div class="container d-flex flex-column gap-4">
                 <h2 class="text-center pt-5">Paquetes Turisticos</h2>
                 <div class="row d-flex justify-content-center g-4" id="foodsFoods"></div>
+                <nav aria-label="Paginación">
+                    <ul class="pagination justify-content-center">
+                      <li class="page-item">
+                        <button class="page-link bg-dark text-light" id="previousCharacters">Anterior</button>
+                      </li>
+                      <li class="page-item">
+                        <button class="page-link bg-dark text-light" id="nextCharacters">Siguiente</button>
+                      </li>
+                    </ul>
+                  </nav>
             </div>
         </section>
+
     </main>
 
     <!-- Footer -->
