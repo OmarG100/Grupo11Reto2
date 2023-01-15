@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "name": "Cuzco",
+        "description": "Durante este recorrido podrá ver los aspectos más destacados de la ciudad, como los dos templos más importantes de los incas, la zona histórica y el valle sagrado de los incas.",
+        "urlImage": "https://www.culturalimmersion.org/Recursos/Imagenes/Tour/TourBanner/TourBanner_483.jpg",
+        "urlRecipe": "https://www.culturalimmersion.org/TourDescription/105/half-day-cusco-city-and-the-incan-empire",
+        "lugaresTuristicos": [
+            {
+                "id": 1,
+                "name": "Machu Picchu",
+                "url": "https://pokeapi.co/api/v2/stat/1/"
+            },
+            {
+                "id": 2,
+                "name": "Saccay Huaman",
+                "url": "https://pokeapi.co/api/v2/stat/1/"
+            },
+            {
+                "id": 3,
+                "name": "Valle Sagrado de los Inkas",
+                "url": "https://pokeapi.co/api/v2/stat/1/"
+            },
+            {
+                "id": 4,
+                "name": "Ciudad del Cuzco",
+                "url": "https://pokeapi.co/api/v2/stat/1/"
+            }
+        ],
+        "precioOferta":"$1200",
+        "precioRegular":"$1550",
+        "Duracion":"4D/3N"
+    },
+    {
+        "id": 2,
+        "name": "Iquitos",
+        "description": "¡Disfruta del increíble y lujoso crucero Aria en la selva amazónica y deja que este viaje te lleve a todos los tesoros escondidos que la selva peruana tiene para ofrecer!.",
+        "urlImage": "https://www.culturalimmersion.org/Recursos/Imagenes/Tour/TourBanner/TourBanner_446.jpg",
+        "urlRecipe": "https://www.culturalimmersion.org/TourDescription/187/aria-cruise-4d3n",
+        "lugaresTuristicos": [
+            {
+                "id": 1,
+                "name": "Ciudad de Iquitos",
+                "url": "https://pokeapi.co/api/v2/stat/1/"
+            },
+            {
+                "id": 2,
+                "name": "Rio Amazonas",
+                "url": "https://pokeapi.co/api/v2/stat/1/"
+            },
+            {
+                "id": 3,
+                "name": "Valle Sagrado de los Inkas",
+                "url": "https://pokeapi.co/api/v2/stat/1/"
+            },
+            {
+                "id": 4,
+                "name": "Ciudad del Cuzco",
+                "url": "https://pokeapi.co/api/v2/stat/1/"
+            }
+        ],
+        "precioOferta":"$800",
+        "precioRegular":"$1200",
+        "Duracion":"5D/4N"
+    }
+]
