@@ -1,9 +1,14 @@
 'use strict';
 
 import foods from "././modules/foods.js";
+import header from "././modules/header.js";
+import characters from "././modules/character.js";
 
 const documentReady = () => {
-  foods();
+  header();
+  characters();
+  // foods();
+  
 };
 
 document.addEventListener('DOMContentLoaded', documentReady);

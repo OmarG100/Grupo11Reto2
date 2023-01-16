@@ -1,4 +1,4 @@
-export const renderCharacters = (data) => {
+export const renderFoods = (data) => {
     const charactersContainer = document.getElementById('charactersContainer');
     charactersContainer.innerHTML = '';
   
@@ -34,7 +34,8 @@ export const renderCharacters = (data) => {
     });
   };
   
-  export const fetchReadCharacters = async (page = 1, name = '') => {
+  //Acomodar los datos
+  export const fetchReadFoods = async (page = 1, name = '') => {
     try {
       const { data } = await axios.get(`https://rickandmortyapi.com/api/character/?page=${page}&name=${name}`);
       return data.results;

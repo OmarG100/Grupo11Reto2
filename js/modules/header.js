@@ -1,16 +1,21 @@
-import { fetchReadFoods, renderFoods } from "../utils/utils.js";
+import { fetchReadCharacters, readfoods } from "../modules/foods.js";
 
 const header = () => {
   const searchForm = document.getElementById('searchForm');
 
-  const searchCharacters = async (e) => {
+  const searchFoods = async (e) => {
     e.preventDefault();
     const name = searchForm.name.value;
-    const data = await fetchReadCharacters(1, name);
-    renderCharacters(data);
+    
+    const data = await fetchReadCharacters(name);
+    //const dataArray=JSON.parse(data); 
+      
+    
+    
+    readfoods(data);
   };
 
-  searchForm.addEventListener('submit', searchCharacters);
+  searchForm.addEventListener('submit', searchFoods);
 };
 
 export default header;
